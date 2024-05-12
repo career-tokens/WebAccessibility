@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import React, { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 interface Props {

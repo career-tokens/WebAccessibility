@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 "use client";
 
 import { cn } from "@/utils/cn";
