@@ -21,7 +21,7 @@ export const AuroraBackground = ({
     <main>
       <div
         className={cn(
-          `relative aurora flex flex-col ${isItPerceivePage?"lg:h-[250vh] h-[370vh]":route=="/form"?"lg:h-[100vh] h-[120vh]":route=="/modal"?"h-[100vh]":"sm:h-[100vh] h-[170vh]"} items-center justify-center bg-zinc-50 dark:bg-zinc-900  text-slate-950 transition-bg`,
+          `relative aurora flex flex-col ${isItPerceivePage?"lg:h-[250vh] xl:h-[150vh] h-[370vh]":route=="/form"?"lg:h-[100vh] h-[120vh]":route=="/modal"?"h-[100vh]":"sm:h-[100vh] h-[170vh]"} items-center justify-center bg-zinc-50 dark:bg-zinc-900  text-slate-950 transition-bg`,
           className
         )}
         {...props}

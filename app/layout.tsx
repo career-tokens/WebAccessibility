@@ -21,7 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <AuroraBackground>{children}</AuroraBackground>
-      <Footer/></body>
+        <Footer />
+      </body>
     </html>
   );
 }

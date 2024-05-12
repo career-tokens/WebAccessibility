@@ -1,4 +1,5 @@
-"use client"
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
+"use client";
 import BackHome from "@/components/ui/backhome";
 import React, { useState, FormEvent } from "react";
 
@@ -25,9 +26,14 @@ const AccessibleForm: React.FC = () => {
 
   return (
     <div className="main h-screen flex flex-col justify-evenly items-center gap-y-5 p-6">
-            <BackHome/>
-            <h1 className="text-lg bg-blue-600  text-white px-5 py-3 rounded-lg sm:w-[70%] w-[95%]" tabIndex={0}>
-        Here we will see an accessible form. Make sure to read about its properties in the blog (link to that in the home page). Also make sure to view the code on github.
+      <BackHome />
+      <h1
+        className="text-lg bg-blue-600  text-white px-5 py-3 rounded-lg sm:w-[70%] w-[95%]"
+        tabIndex={0}
+      >
+        Here we will see an accessible form. Make sure to read about its
+        properties in the blog (link to that in the home page). Also make sure
+        to view the code on github.
       </h1>
       <h1 className="text-2xl" tabIndex={0}>
         Accessible Form
